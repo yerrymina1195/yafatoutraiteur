@@ -3,7 +3,7 @@ import "./Section1.css";
 import Menu from '../menu/Menu';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import img1 from"../../assets/Acceuilbg.jpg"
+import img1 from"../../assets/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg"
 
 
  

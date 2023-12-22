@@ -1,6 +1,6 @@
 import React from 'react'
-import "../section1/Section1.css"
-import img1 from"../../assets/Acceuilbg.jpg"
+import "./Section1.css";
+import img1 from"../../assets/blackieshoot-c-7iThp0UDc-unsplash.jpg"
 
 
 export default function 
