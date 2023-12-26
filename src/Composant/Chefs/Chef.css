@@ -1,0 +1,71 @@
+#chefs {
+    background-color: #0c0b09;
+}
+
+.chefs h1 {
+    font-size: 40px;
+    color: #cda44b;
+}
+
+.chef-card {
+    position: relative;
+}
+
+.chefs .divImage {
+    position: relative;
+    z-index: 1;
+    transition: opacity 0.3s;
+}
+
+.chefs .divImage:hover {
+    opacity: 0.9;
+    color: #fff;
+
+}
+
+.chefs .chef-details {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.chefs .divImage:hover .chef-details {
+    opacity: 1;
+    color: #fff;
+}
+
+.chefs .chef-details h3 {
+    color: #fff;
+    font-size: 22px;
+
+}
+
+.chefs .chef-details .p-chef {
+    color: #fff;
+    font-size: 15px;
+    bottom: 0;
+    /* margin-top: 10px; */
+}
+.chefs .chef-details .social-icons .icon {
+    font-size: 30px;
+    /* margin-top: 10px; */
+}
+
+.divImage:hover .chef-details .social-icons .icon:hover {
+    color: #cda45e;
+    cursor: pointer;
+}
+
+/* Chef.css */
+
+/* Styles pour les icônes au survol */
+.divImage:hover .chef-details .social-icons .icon:hover {
+    color: #cda45e;
+    cursor: pointer;
+}

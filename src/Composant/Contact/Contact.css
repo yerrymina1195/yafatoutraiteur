@@ -1,0 +1,30 @@
+#contact {
+    background-color: #0c0b09;
+    color: #fff;
+}
+
+.contact h1 {
+    font-size: 40px;
+    color: #CDA44B;
+}
+
+.icon-group {
+    background-color: #CDA44B;
+    width: 50px;
+    height: 50px;
+}
+
+.icons {
+    color: #fff;
+    font-size: 30px;
+}
+.form{
+    background-color: #0c0b09;
+}
+.form .form-control{
+    background-color: #0c0b09;
+    border: 1px solid gray;
+}
+.form .form-control::placeholder{
+    color: gray;
+}
